@@ -11,7 +11,7 @@ relatively frequent letters.
 - `Bigram`, the sequence of two adjacent letters in a string of tokens that are n-grams for n=2 
 in frequent distribution of bigrams for simple statistical analysis of text 
 - `Triagram`, sequence of three adjacent letters in a string of tokens that are n-grams for n=3
-- `Gold-bug`, substitution cipher replacing letter with symbols.asdfa
+- `Gold-bug`, substitution cipher replacing letter with symbols.
 
 Web\default.aspx
 ================
