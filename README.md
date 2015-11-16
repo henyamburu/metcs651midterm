@@ -11,11 +11,7 @@ relatively frequent letters.
 - `Bigram`, the sequence of two adjacent letters in a string of tokens that are n-grams for n=2 
 in frequent distribution of bigrams for simple statistical analysis of text 
 - `Triagram`, sequence of three adjacent letters in a string of tokens that are n-grams for n=3
-<<<<<<< HEAD
 - `Gold-bug`, substitution cipher replacing letter with symbols.
-=======
-- `Gold-bug`, adsf
->>>>>>> d2e49c1c1effebb1a816cd012fa8f316fa4388e4
 
 Web\default.aspx
 ================
@@ -29,9 +25,4 @@ rendered on the page.
 - `jQuery library`, is call on to facilitate with dynamic functions in extracting value from html
 controls and making AJAX request to the web service.
 - `Web/Service.svc`, is the server-side code that serves class and method functionality to be
-<<<<<<< HEAD
 consumed by AJAX asynchronously. 
-
-=======
-consumed by AJAX asynchronously.
->>>>>>> d2e49c1c1effebb1a816cd012fa8f316fa4388e4
