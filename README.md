@@ -1,14 +1,28 @@
+Client-browser/Server Decoder
+=============================
+A client/server web solution that enables a user to enter a secret message and try out
+various character substitution strategies based on letter, bigram, and trigram frequency
+tables.
+
+User is able to overide the default strategy follow the strategies:
+
+- `Character`, is the analysis of letters frequency occuring in text and substituting with
+relatively frequent letters. 
+- `Bigram`, the sequence of two adjacent letters in a string of tokens that are n-grams for n=2 
+in frequent distribution of bigrams for simple statistical analysis of text 
+- `Triagram`, sequence of three adjacent letters in a string of tokens that are n-grams for n=3
+- `Gold-bug`, adsf
+
 Web\default.aspx
 ================
-The Web page reads in lines of text entered by users, separates them into words, sorts them, 
-and prints them out together with their number of occurrences.
+The Web page reads in lines decoded text entered by users, applies one of the strategies indicated
+above, and calls on web service to decode message.  The resulting decoded text is printed on a 
+paragraph element.
 
-As User enters or changes the text, and word list are automatically or dynamically rendered onto the page.
+As User enters or changes the text and/or selects a strategy, the decoded message is dynamically
+rendered on the page.
 
-### HTTP Modules
-- `Modules.Authentication.cs`, authenticates users before servicing page.  The site employs a basic 
-authentication scheme where user are prompted for credentials, User Name: Bart; Password: Mburu.
-
-### WCF Service
-- `Web/Service.svc`, is service class that separates and sorts words.  
-- The service is called on by jQuery's AJAX to request the web service asynchronously.
+- `jQuery library`, is call on to facilitate with dynamic functions in extracting value from html
+controls and making AJAX request to the web service.
+- `Web/Service.svc`, is the server-side code that serves class and method functionality to be
+consumed by AJAX asynchronously.

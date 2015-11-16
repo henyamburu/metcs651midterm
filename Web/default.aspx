@@ -66,14 +66,13 @@
 	</nav>
 	<!--main-->
 	<div class="container-fluid" id="main">
-        <span class="visible-xs">SIZE XS</span><span class="visible-sm">SIZE SM</span><span class="visible-md">SIZE MD</span><span class="visible-lg">SIZE LG</span>
 	   <div class="row">
 	   <div class="col-md-6 col-sm-6">
 			<div class="well"> 
 				 <form class="form-horizontal" role="form">
 				  <h4>Scrambled Message</h4>
                     <div class="control-group">
-				        <label>Select Analysis Method</label>
+				        <label>Select Strategy Method</label>
 				    <div class="controls">
 					   <select class="form-control">
                            <option value="monogram">Letter Frequency</option>
